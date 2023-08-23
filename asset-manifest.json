@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-sample-text-generator-app/static/css/main.0914471c.css",
+    "main.js": "/React-sample-text-generator-app/static/js/main.5b09a571.js",
+    "static/js/787.7314c409.chunk.js": "/React-sample-text-generator-app/static/js/787.7314c409.chunk.js",
+    "index.html": "/React-sample-text-generator-app/index.html",
+    "main.0914471c.css.map": "/React-sample-text-generator-app/static/css/main.0914471c.css.map",
+    "main.5b09a571.js.map": "/React-sample-text-generator-app/static/js/main.5b09a571.js.map",
+    "787.7314c409.chunk.js.map": "/React-sample-text-generator-app/static/js/787.7314c409.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0914471c.css",
+    "static/js/main.5b09a571.js"
+  ]
+}
