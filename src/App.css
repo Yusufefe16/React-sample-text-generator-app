@@ -1,0 +1,127 @@
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{
+  background-color: #455d7a;
+}
+
+.App{
+  max-width: 1300px;
+  width: 100%;
+  margin: 0px auto;
+  height: 100vh;
+}
+
+h1{
+  font-size: 50px;
+}
+
+hr{
+  color: inherit;
+  opacity: .25;
+}
+
+.header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+@media (max-width: 450px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  .paragraph, .include {
+    width: 100%;
+    justify-self: center; 
+    padding: 0 30px; 
+  }
+}
+
+
+.paragraph{
+  place-self: center;
+  justify-self: end;
+  padding-right: 30px;
+}
+
+.include{
+  place-self: center;
+  justify-self: start;
+  padding-left: 30px;
+}
+
+label{
+  color: #fff;
+}
+
+input{
+  height: 40px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: bold;
+  line-height: 1rem;
+  
+}
+
+select{
+  height: 40px;
+  width: 150px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.bodyy{
+  background-color: #9babbe; 
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  padding: 35px;
+  margin: 30px 0;
+  text-align: start;
+}
+
+
+ul.infoli {
+  list-style-type: none; 
+  padding: 0;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.infoli li {
+  padding: 10px 20px;
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  display: flex; 
+  align-items: center;
+  gap: 10px;
+}
+
+ul.infoli li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul.infoli svg {
+  fill: #333;
+  transition: fill 0.3s ease;
+}
+
+ul.infoli li a:hover svg {
+  fill: #0077b5;
+}
+
+ul.infoli li.li2 a:hover svg {
+  fill: #4078c0;
+}
